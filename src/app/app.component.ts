@@ -62,7 +62,7 @@ export class AppComponent {
         console.log(`'${description}'`)
         linedata['Item Description'].changed = true;
         linedata['Item Description'].value = description;
-        
+        console.log('hi');
       }
 
       if (!linedata['Item#'].value.includes(item)) {
